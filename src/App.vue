@@ -1,5 +1,5 @@
 <script setup>
-import Weather from './components/Weather.vue';
+import Weather from "./components/Weather.vue";
 </script>
 
 <template>
@@ -10,6 +10,4 @@ import Weather from './components/Weather.vue';
 
 <style>
 /* @import "./assets/base.css"; */
-
-
 </style>

@@ -1,15 +1,9 @@
 <template>
-  <div class="weather-icon">
-      Icons
-  </div>
+  <div class="weather-icon">Icons</div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
