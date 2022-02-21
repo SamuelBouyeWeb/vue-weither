@@ -1,5 +1,6 @@
 <script setup>
 import Weather from "./components/Weather.vue";
+import "./index.css";
 </script>
 
 <template>
