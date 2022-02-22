@@ -1,24 +1,23 @@
 <template>
-  <h1>Weather app</h1>
-  <WeatherCityInput />
-  <WeatherCard />
+  <div class="weather m-4">
+    <WeatherCityInput />
+  </div>
 </template>
 
 <script>
 import WeatherCityInput from "./WeatherCityInput.vue";
-import WeatherCard from "./WeatherCard.vue";
 
 export default {
   components: {
     WeatherCityInput,
-    WeatherCard,
   },
   data() {
     return {
-      //code ...
+      imgData: '../assets/img/mountain.png'
     };
   },
 };
 </script>
 
-<style></style>
+<style>
+</style>
